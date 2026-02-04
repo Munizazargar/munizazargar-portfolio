@@ -20,21 +20,6 @@ export default function Projects() {
       demo: ''
     },
     {
-      title: 'Job Portal',
-      period: '2025 - Present',
-      description: 'Full-stack job portal connecting employers and job seekers',
-      technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
-      features: [
-        'Role-based authentication (Employer/Job Seeker)',
-        'Dashboard-based access control',
-        'Job posting and application system',
-        'Real-time updates and notifications'
-      ],
-      status: 'In Progress',
-      github: 'https://github.com/Munizazargar/jobGenesisBackend',
-      demo: ''
-    },
-    {
       title: 'Devs Outreach',
       period: '2024-2025',
       description: 'Developer community platform built with modern web technologies',
@@ -48,20 +33,23 @@ export default function Projects() {
       github: 'https://github.com/Munizazargar/Devs_Outreach',
       demo: ''
     },
-      {
-      title: 'Wular i Tech solutions',
-      period: '2025-2026',
-      description: 'delivering modern solution to real world problems',
-      technologies: ['dotnet mvc architecture','c#,html,css,js'],
-      features: [
-        'Modern React-based architecture',
-        'Type-safe development with TypeScript',
-        'Server-side rendering with Next.js',
-        'Optimized performance and SEO'
-      ],
-      github: 'https://github.com/Munizazargar/Client',
-      demo: ''
-    }
+     {
+  title: 'Wular i Tech Solutions',
+  period: '2025-2026',
+  description: 'Delivering modern solutions to real-world problems using .NET MVC architecture and SQL Server database.',
+  technologies: ['C#', 'ASP.NET Core MVC', 'HTML', 'CSS', 'JavaScript', 'MSSQL'],
+  features: [
+    'MVC architecture for structured development',
+    'Server-side rendering with Razor views',
+    'Database integration with MSSQL',
+    'CRUD operations for dynamic data management',
+    'Secure user authentication and session management'
+  ],
+  github: 'https://github.com/Munizazargar/Client',
+  demo: '' // you can add a link later if deployed
+}
+
+
 
   ];
 
