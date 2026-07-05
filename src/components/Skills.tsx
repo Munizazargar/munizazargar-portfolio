@@ -18,11 +18,11 @@ export default function Skills() {
     },
     {
       category: 'Databases',
-      skills: ['MongoDB', 'SQL Server']
+      skills: ['MongoDB', 'SQL Server','PostgreSQL', 'Mongoose', 'Entity Framework'  ]
     },
     {
       category: 'Tools & Platforms',
-      skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'npm', 'MongoDB Compass', 'Claude']
+      skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'npm', 'MongoDB Compass', 'Render', 'Vercel', 'Netlify']
     }
   ];
 
