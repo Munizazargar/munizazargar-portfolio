@@ -1,11 +1,8 @@
 'use client';
 
 import React from 'react';
-import { useTheme } from '../context/ThemeContext';
 
 export default function Header() {
-  const { theme, toggleTheme } = useTheme();
-
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -16,7 +13,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <div className="logo">MZ</div>
+        <div className="logo">Munizaz zargar.</div>
         
         <nav>
           <ul className="nav-links">
@@ -28,10 +25,6 @@ export default function Header() {
             <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
           </ul>
         </nav>
-
-        <button className="theme-toggle" onClick={toggleTheme}>
-          {theme === 'light' ? '🌙' : '☀️'}
-        </button>
       </div>
     </header>
   );

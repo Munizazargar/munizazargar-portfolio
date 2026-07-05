@@ -2,23 +2,7 @@
    THEME VARIABLES
 ================================ */
 
-/* 🌞 LIGHT MODE */
 :root {
-  --bg-primary: #361313;
-  --bg-secondary: #71767b;
-
-  --text-primary: #ececec;
-  --text-secondary: #475569;
-
-  --accent: #22c55e;
-  --accent-hover: #16a34a;
-
-  --border: #e2e8f0;
-  --shadow: rgba(0, 0, 0, 0.08);
-}
-
-/* 🌙 DARK MODE */
-[data-theme='dark'] {
   --bg-primary: #0b1410;
   --bg-secondary: #13201a;
 
@@ -131,4 +115,3 @@ section {
     color-scheme: dark;
   }
 }
-

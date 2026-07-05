@@ -6,51 +6,62 @@ import { useState } from 'react';
 export default function Projects() {
   const projects = [
     {
-      title: 'Edu Hub ',
+      title: 'KashFix',
+      period: '2026 - In Development',
+      description: 'Marketplace connecting consumers with verified skilled technicians across Kashmir.',
+      technologies: ['ASP.NET MVC', 'C#', 'PostgreSQL', 'Authentication'],
+      features: [
+        'Authentication and booking workflows',
+        'Service provider and consumer dashboards',
+        'Scalable backend architecture',
+        'Booking status tracking with email notifications'
+      ],
+      github: 'https://github.com/Munizazargar/KashFix',
+      demo: 'https://wularitech-sol.onrender.com'
+    },
+    {
+      title: 'Apex Gaming Cafe',
+      period: '2025-2026',
+      description: 'Designed and deployed a responsive promotional website with modern UI and animations.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+      features: [
+        'Modern React-based architecture with Next.js',
+        'Neon/hacker-themed UI with scroll animations',
+        'Optimized performance and mobile responsiveness',
+        'Deployed on Vercel'
+      ],
+      github: 'https://github.com/Munizazargar/Apex-Gaming-Cafe',
+      demo: 'https://apex-gaming-preview.vercel.app/'
+    },
+    {
+      title: 'Wular i Tech Solutions',
+      period: '2025-2026',
+      description: 'Delivering modern solutions to real-world problems using .NET MVC architecture and SQL Server database.',
+      technologies: ['C#', 'ASP.NET Core MVC', 'HTML', 'CSS', 'JavaScript', 'MSSQL'],
+      features: [
+        'MVC architecture for structured development',
+        'Server-side rendering with Razor views',
+        'Database integration with MSSQL',
+        'CRUD operations for dynamic data management',
+        'Secure user authentication and session management'
+      ],
+      github: '',
+      demo: 'https://wularitechsol.netlify.app/'
+    },
+    {
+      title: 'EduHub',
       period: '2022-2023',
-      description: 'Blog-based educational content management application.',
+      description: 'Learning Management System with authentication, role-based access, and CRUD operations.',
       technologies: ['ASP.NET MVC', 'C#', 'SQL Server', 'Authentication'],
       features: [
         'CRUD operations for content management',
-        'User authentication and authorization',
+        'Role-based user authentication and authorization',
         'Database integration with SQL Server',
         'Responsive design'
       ],
-      github: 'https://github.com/Munizazargar/EduHub',
+      github: '',
       demo: ''
-    },
-    {
-      title: 'Devs Outreach',
-      period: '2024-2025',
-      description: 'Developer community platform built with modern web technologies',
-      technologies: ['TypeScript', 'Next.js'],
-      features: [
-        'Modern React-based architecture',
-        'Type-safe development with TypeScript',
-        'Server-side rendering with Next.js',
-        'Optimized performance and SEO'
-      ],
-      github: 'https://github.com/Munizazargar/Devs_Outreach',
-      demo: ''
-    },
-     {
-  title: 'Wular i Tech Solutions',
-  period: '2025-2026',
-  description: 'Delivering modern solutions to real-world problems using .NET MVC architecture and SQL Server database.',
-  technologies: ['C#', 'ASP.NET Core MVC', 'HTML', 'CSS', 'JavaScript', 'MSSQL'],
-  features: [
-    'MVC architecture for structured development',
-    'Server-side rendering with Razor views',
-    'Database integration with MSSQL',
-    'CRUD operations for dynamic data management',
-    'Secure user authentication and session management'
-  ],
-  github: 'https://github.com/Munizazargar/Client',
-  demo: '' // you can add a link later if deployed
-}
-
-
-
+    }
   ];
 
   return (

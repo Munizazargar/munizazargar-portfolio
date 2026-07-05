@@ -27,7 +27,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Muniza Zargar
+          Muniza zargar
         </motion.h1>
         
         <motion.p 
@@ -36,7 +36,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Full Stack Developer | MERN Stack
+          Full Stack Developer | ASP.NET Core | React | Founder, DevAura
         </motion.p>
         
         <motion.p 
@@ -50,7 +50,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-         Building scalable web applications with modern frontend, REST APIs, databases, and production-ready deployments.
+         Building scalable business applications with ASP.NET, React, and modern web technologies — from concept to deployment, backed by real client-facing experience through DevAura.
         </motion.p>
         
         <motion.div 
