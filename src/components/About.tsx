@@ -38,9 +38,8 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-          I am a Full Stack Developer with hands-on experience in building modern, responsive, and scalable web applications.
-          I work across both frontend and backend development using React.js, Next.js, Node.js, and the .NET framework.
-          I specialize in developing RESTful APIs, integrating SQL and NoSQL databases, managing code with Git, and deploying applications with a focus on clean architecture, performance, and production readiness.
+          I am a Full Stack Developer with hands-on experience building modern, responsive, and scalable web applications using ASP.NET Core, React.js, Next.js, and Node.js.
+          I specialize in developing RESTful APIs, integrating SQL Server and MongoDB, managing code with Git, and deploying applications with a focus on clean architecture, performance, and production readiness.
           </motion.p>
           
           <motion.p 
@@ -55,7 +54,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            I focus on building scalable, maintainable applications with clean architecture, modern development practices, and Agile methodologies.
+            Beyond writing code, I run DevAura, my own agency, where I help local businesses build their digital presence end-to-end — from web development and branding to content strategy and digital marketing. This gives me a rare mix of technical depth and real-world client experience, from requirement gathering to deployment and support.
           </motion.p>
 
           <motion.div 
@@ -89,6 +88,18 @@ export default function About() {
               </h4>
               <p style={{ color: 'var(--text-secondary)' }}>
                 BSc-IT, University of Kashmir
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.05, y: -3 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <h4 style={{ color: 'var(--accent)', marginBottom: '0.5rem' }}>
+                🚀 Currently
+              </h4>
+              <p style={{ color: 'var(--text-secondary)' }}>
+                Building DevAura & KashFix
               </p>
             </motion.div>
             
