@@ -77,17 +77,17 @@ export default function Hero() {
             View Projects
           </motion.button>
           
-          <motion.a 
-            href="/resume.pdf" 
-            download="ResumePdf.pdf"
-            className="btn btn-secondary"
-            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <FileDown size={20} />
-            Download Resume
-          </motion.a>
+         <motion.a 
+  href="/ResumePdf.pdf" 
+  download="Muniza_Zargar_Resume.pdf"
+  className="btn btn-secondary"
+  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+  whileHover={{ scale: 1.05, y: -2 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <FileDown size={20} />
+  Download Resume
+</motion.a>
         </motion.div>
 
         <motion.div 
