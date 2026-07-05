@@ -79,7 +79,7 @@ export default function Hero() {
           
           <motion.a 
             href="/resume.pdf" 
-            download="Muniza_Zargar_Resume.pdf"
+            download="ResumePdf.pdf"
             className="btn btn-secondary"
             style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
             whileHover={{ scale: 1.05, y: -2 }}

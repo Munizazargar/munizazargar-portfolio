@@ -59,7 +59,7 @@ export default function Projects() {
         'Database integration with SQL Server',
         'Responsive design'
       ],
-      github: '',
+      github: 'https://github.com/Munizazargar/EduCenter',
       demo: ''
     }
   ];
